@@ -342,6 +342,10 @@ section.contact a:hover {
         
     }
 
+    section.about figure img {
+        width: 50%;
+    }
+
     section.service figure {
         flex-basis: 40vh;
         
