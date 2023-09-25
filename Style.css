@@ -137,7 +137,7 @@ section.about article .title {
     flex: 1;
     display: flex;
     align-items: center;
-    background: var(--blue);
+    background: var(--blue2);
     border-radius: var(--border-radius);
     padding: var(--gutter);
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
