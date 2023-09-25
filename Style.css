@@ -353,7 +353,7 @@ section.contact a:hover {
     }
 
     section.contact a {
-        font-size: 50px;
+        font-size: 35px;
         transform: rotate(90deg);
     }
 }
