@@ -343,7 +343,7 @@ section.contact a:hover {
     }
 
     section.service figure {
-        flex-basis: 25vh;
+        flex-basis: 40vh;
         
     
     }
@@ -353,7 +353,7 @@ section.contact a:hover {
     }
 
     section.contact a {
-        font-size: 30px;
+        font-size: 50px;
         transform: rotate(90deg);
     }
 }
