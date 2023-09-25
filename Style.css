@@ -354,6 +354,6 @@ section.contact a:hover {
 
     section.contact a{
         font-size: 8px;
-        
+        transform: rotate(90deg);
     }
 }
