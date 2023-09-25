@@ -317,7 +317,7 @@ section.contact a:hover {
  
 @media only screen and (max-width: 768px) {
     html, body {
-        background: red;
+        --border-radious: 50px;
         --gutter: 6.25vw;
     }
     
@@ -352,8 +352,8 @@ section.contact a:hover {
         width: 30%;
     }
 
-    section.contact a{
-        font-size: 8px;
+    section.contact a {
+        font-size: 10px;
         transform: rotate(90deg);
     }
 }
