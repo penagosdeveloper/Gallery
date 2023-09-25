@@ -103,7 +103,7 @@ nav ul li a {
 
     color: #ddaf18; 
     font-family: 'Space Mono', monospace;
-    font-size: 50px;
+    font-size: 25px;
 
 }
 
@@ -137,7 +137,7 @@ section.about article .title {
     flex: 1;
     display: flex;
     align-items: center;
-    background: var(--blue2);
+    background: var(--blue);
     border-radius: var(--border-radius);
     padding: var(--gutter);
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
@@ -353,7 +353,7 @@ section.contact a:hover {
     }
 
     section.contact a{
-        font-size: 16px;
+        font-size: 13px;
         
     }
 }
