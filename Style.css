@@ -123,7 +123,7 @@ section.about .empty {
 }
 
 section.about figure img  {
-    width: 60%; 
+    width: 55%; 
     
 }
 
@@ -326,11 +326,11 @@ section.contact a:hover {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 23px;
     }
 
     p {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     nav ul li {
@@ -338,18 +338,28 @@ section.contact a:hover {
         margin-left: 20px;
     }
 
+
+    section.about figure {
+        flex-direction: column;
+    }
+
+    section.about figure  {
+        flex-basis: 40vh;
+    }
+
+
+    section.about figure img {
+        width: 70%;
+    }
+
+    section.about article {
+        flex-direction: column;
+    }
+
+
     section.service article {
         flex-direction: column;
         
-    }
-
-    section.service .empty {
-        flex-direction: column;
-        
-    }
-
-    section.about figure img  {
-        width: 70%;
     }
 
     section.service figure {
