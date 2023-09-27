@@ -116,15 +116,10 @@ section.about .empty {
     align-items: center;
     justify-content: center;
     flex-basis: 37.5vw;
-    background: var(--green);
+    background: var(--blanco);
     border-radius: var(--border-radius);
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
 
-}
-
-section.about figure img  {
-    width: 55%; 
-    
 }
 
 section.about article {
@@ -336,24 +331,6 @@ section.contact a:hover {
     nav ul li {
 
         margin-left: 20px;
-    }
-
-
-    section.about figure {
-        flex-direction: column;
-    }
-
-    section.about figure  {
-        flex-basis: 40vh;
-    }
-
-
-    section.about figure img {
-        width: 70%;
-    }
-
-    section.about article {
-        flex-direction: column;
     }
 
 
