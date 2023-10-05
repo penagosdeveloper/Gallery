@@ -174,7 +174,7 @@ section.service figure {
 }
 
 section.service figure img  {
-    width: 70%;
+    width: 60%;
 }
 
 section.service .text {
@@ -292,7 +292,7 @@ section.service.service-SS .text a {
 section.contact {
     align-items: center;
     justify-content: center;
-    background: linear-gradient(var(--blue) 5%, var(--green) 50%, var(--pink), var(--gray));
+    background: linear-gradient(var(--Mostaza2) 5%, var(--white) 50%, var(--blanco), var(--blue2));
     border-radius: var(--border-radius);
     mix-blend-mode: difference;
     
