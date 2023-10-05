@@ -6,20 +6,20 @@ html,
 body {
     --border-radius: 80px;
     --blue:  #1c47ff;
-    --blue2:  #6273c2;
+    --blue2:  #b7c0e6;
     --pink:  #d6a3fb;
     --green: #d0ff94;
     --gray:  #e5e5e5;
     --white: #f1efe8;
     --Mostaza: #f1d060;
-    --Mostaza2: #dac47f;
+    --Mostaza2: #e6ddc4;
     --blanco: #ffffff;
     --gutter: 3.125px 6.25vw;
 
-    margin: 0;
+    margin: 0; 
     padding: 0;
-    background: #000000;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     font-size: 20px;
     font-family: 'Syne', sans-serif;
 }
@@ -28,6 +28,7 @@ h1 {
     font-size: 50px;
     line-height: 1em;
     margin: 0px;
+    color: var(--Mostaza2);
 }
 
 h2 {
@@ -101,7 +102,7 @@ nav ul li {
 
 nav ul li a {
 
-    color: #ddaf18; 
+    color: #e4d5ae; 
     font-family: 'Space Mono', monospace;
     font-size: 25px;
 
@@ -116,7 +117,8 @@ section.about .empty {
     align-items: center;
     justify-content: center;
     flex-basis: 37.5vw;
-    background: var(--blanco);
+    background: url(img/logo.png);
+    background-size: 1300px;
     border-radius: var(--border-radius);
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
 
@@ -132,7 +134,7 @@ section.about article .title {
     flex: 1;
     display: flex;
     align-items: center;
-    background: var(--blue2);
+    background: var(--white);
     border-radius: var(--border-radius);
     padding: var(--gutter);
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
@@ -165,7 +167,7 @@ section.service figure {
     justify-content: center;
     flex-basis: 56.25vw;
     margin: 0;
-    background: var(--Mostaza);
+    background: var(--white);
     border-radius: var(--border-radius);
     max-width: 62.5vw;
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
@@ -180,7 +182,7 @@ section.service .text {
     flex-direction: column;
     justify-content: center;
     flex: 1;
-    background: #1f1a1c;
+    background: var(--Mostaza2);
     padding: var(--gutter);
     border-radius: var(--border-radius);
 }
@@ -267,7 +269,7 @@ section.service.service-Collaboration .text a {
 }
 
 section.service.service-PDS figure {
-    background: var(--Mostaza2);
+    background: var(--white);
 }
 
 section.service.service-PDS .text h2,
@@ -333,6 +335,10 @@ section.contact a:hover {
         margin-left: 20px;
     }
 
+    section.about .empty {
+        background-size: 350px;
+    }
+
 
     section.service article {
         flex-direction: column;
@@ -346,7 +352,7 @@ section.contact a:hover {
     }
 
     section.service figure img {
-        width: 70%;
+        width: 50%;
     }
 
     section.contact a {
