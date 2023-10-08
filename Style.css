@@ -187,7 +187,7 @@ section.service .text {
     border-radius: var(--border-radius);
 }
 
-section.service .text a {
+section.service .text a {                  
     font-family: 'Space Mono', monospace;
 }
 
