@@ -21,7 +21,7 @@ body {
     background: #ffffff;
     color: #000000;
     font-size: 20px;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Ealeway', sans-serif;
 }
 
 h1 {
@@ -115,10 +115,10 @@ nav ul li a {
 section.about .empty {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: right;
     flex-basis: 37.5vw;
-    background: url(img/logo.png);
-    background-size: 1300px;
+    background: url(img/logo.png) ;
+    background-size: 20rem;
     border-radius: var(--border-radius);
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
 
@@ -167,7 +167,7 @@ section.service figure {
     justify-content: center;
     flex-basis: 56.25vw;
     margin: 0;
-    background: var(--white);
+    background: var(--blanco);
     border-radius: var(--border-radius);
     max-width: 62.5vw;
     transition: flex-basis 1s cubic-bezier(0,.9,.38,.99);
@@ -278,7 +278,7 @@ section.service.service-PDS .text a {
 }
 
 section.service.service-SS figure {
-    background: var(--gray);
+    background: var(--white);
 }
 
 section.service.service-SS .text h2,
@@ -336,7 +336,11 @@ section.contact a:hover {
     }
 
     section.about .empty {
-        background-size: 350px;
+
+        background-size: 250px;
+       
+        
+
     }
 
 
